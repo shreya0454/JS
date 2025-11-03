@@ -1,0 +1,64 @@
+/* ---------- Overall Page Styling ---------- */
+body {
+  font-family: Arial, sans-serif;   /* Sets a clean, readable font */
+  background-color: #f0f8ff;       /* Light blue background color */
+  display: flex;                   /* Enables flexbox layout */
+  flex-direction: column;          /* Stacks elements vertically */
+  align-items: center;             /* Centers elements horizontally */
+  min-height: 100vh;               /* Full viewport height */
+  margin: 0;                       /* Removes default body margin */
+  padding-top: 20px;               /* Adds space at the top */
+}
+
+/* ---------- Headings ---------- */
+h1, h2, h3 {
+  color: #382651;                  /* Dark purple text color */
+  margin: 5px;                     /* Small uniform margin around headings */
+}
+
+/* ---------- Main Content Box ---------- */
+.container {
+  background: #fff;                /* White background for contrast */
+  padding: 20px;                   /* Space inside the box */
+  border-radius: 8px;              /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* Soft shadow for depth */
+  text-align: center;              /* Centers all text and elements */
+  width: 400px;                    /* Fixed width for layout consistency */
+}
+
+/* ---------- Input Fields ---------- */
+input {
+  display: block;                  /* Makes inputs appear on separate lines */
+  margin: 8px auto;                /* Centers inputs and adds spacing */
+  padding: 8px;                    /* Inner padding for comfort */
+  border: 1px solid #ccc;          /* Light gray border */
+  border-radius: 4px;              /* Rounded corners */
+  width: 80%;                      /* Input width relative to container */
+}
+
+/* ---------- Buttons ---------- */
+button {
+  padding: 8px 16px;               /* Space inside button */
+  margin: 8px;                     /* Space outside button */
+  background-color: #0d4843;       /* Dark green background */
+  color: #fff;                     /* White text color */
+  border: none;                    /* Removes border line */
+  border-radius: 4px;              /* Rounded edges */
+  cursor: pointer;                 /* Pointer cursor on hover */
+  transition: 0.3s;                /* Smooth color change on hover */
+}
+
+/* ---------- Button Hover Effect ---------- */
+button:hover {
+  background-color: #5ddbfd;       /* Changes button color when hovered */
+}
+
+/* ---------- Result Display Boxes ---------- */
+.result-box {
+  margin-top: 10px;                /* Space above the result box */
+  background-color: #e0f7fa;       /* Light cyan background */
+  padding: 8px;                    /* Inner spacing for text */
+  border-radius: 4px;              /* Rounded corners */
+  min-height: 25px;                /* Ensures consistent height even if empty */
+  color: #333;                     /* Dark gray text color */
+}

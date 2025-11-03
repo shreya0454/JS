@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multiplication Table Generator - Combined</title>
+  <link rel="stylesheet" href="exp2.css" />
+</head>
+<body>
+  
+   
+  <div class="main-container">
+     <div class="info">
+      
+      <h3>Name: Shreya Gawade</h3>
+      <h3>Roll Number: 42325</h3>
+      <h3>Experiment No.: 02 </h3>
+    </div>
+    
+    <h1>Multiplication Table Generator (For, While, Do-While)</h1>
+    <div class="row">
+      <!-- For Loop Section -->
+      <div class="container">
+        <h2>Using For Loop</h2>
+        <label for="numberInputFor">Enter a number:</label>
+        <input type="number" id="numberInputFor" placeholder="Enter number">
+        <button onclick="generateTableUsingForLoop()">Generate</button>
+        <div id="resultFor" class="result"></div>
+      </div>
+
+      <!-- While Loop Section -->
+      <div class="container">
+        <h2>Using While Loop</h2>
+        <label for="numberInputWhile">Enter a number:</label>
+        <input type="number" id="numberInputWhile" placeholder="Enter number">
+        <button onclick="generateTableUsingWhileLoop()">Generate</button>
+        <div id="resultWhile" class="result"></div>
+      </div>
+
+      <!-- Do-While Loop Section -->
+      <div class="container">
+        <h2>Using Do-While Loop</h2>
+        <label for="numberInputDoWhile">Enter a number:</label>
+        <input type="number" id="numberInputDoWhile" placeholder="Enter number">
+        <button onclick="generateTableUsingDoWhileLoop()">Generate</button>
+        <div id="resultDoWhile" class="result"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="exp2.js"></script>
+</body>
+</html>

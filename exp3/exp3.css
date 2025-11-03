@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;   /* Simple readable font */
+  background: #e9f5ff;              /* Light blue background */
+  display: flex;                    /* Enables flex layout */
+  justify-content: center;          /* Centers content horizontally */
+}
+
+.container {
+  background: #fff;                 /* White background for contrast */
+  text-align: center;               /* Centers all text and elements */
+  width: 350px;                     /* Fixed width for balanced layout */
+}
+
+input,
+button {
+  width: 90%;                       /* Fits neatly inside container */
+  padding: 10px;                    /* Inner spacing */
+  margin: 6px 0;                    /* Vertical spacing between elements */
+  font-size: 15px;                  /* Readable text size */
+}
+
+button {
+  background: #6dd5ed;              /* Light blue button color */
+  color: #072d36;                   /* Dark text for contrast */
+}
+
+.result {
+  color: #074d1d;                   /* Greenish text for results */
+}

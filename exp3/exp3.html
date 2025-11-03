@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Operations</title>
+  <link rel="stylesheet" href="exp3.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Basic Info -->
+    <h3>Shreya Gawade | Roll No: 42325 | Experiment No: 03</h3>
+    <h1>String Operations</h1>
+
+    <!-- 1️⃣ Reverse String -->
+    <section>
+      <h3>1. Reverse String</h3>
+      <input type="text" id="reverseInput" placeholder="Enter a string">
+      <button onclick="reverseString()">Reverse</button>
+      <p id="resultReverse" class="result">Result will appear here</p>
+    </section>
+
+    <!-- 2️⃣ Replace Character -->
+    <section>
+      <h3>2. Replace Character</h3>
+      <input type="text" id="stringInputChar" placeholder="Enter string">
+      <input type="text" id="replaceChar" placeholder="Character to replace">
+      <input type="text" id="replaceWith" placeholder="Replace with">
+      <button onclick="replaceCharacter()">Replace</button>
+      <p id="resultReplace" class="result">Result will appear here</p>
+    </section>
+
+    <!-- 3️⃣ Replace Substring -->
+    <section>
+      <h3>3. Replace Substring</h3>
+      <input type="text" id="stringInputSub" placeholder="Enter string">
+      <input type="text" id="substringInput" placeholder="Substring to replace">
+      <input type="text" id="replaceWithSubstring" placeholder="New substring">
+      <button onclick="replaceSubstring()">Replace</button>
+      <p id="resultSubstring" class="result">Result will appear here</p>
+    </section>
+
+    <!-- 4️⃣ Palindrome Check -->
+
+      <h3>4. Check Palindrome</h3>
+      <input type="text" id="palindromeInput" placeholder="Enter a string">
+      <button onclick="checkPalindrome()">Check</button>
+      <p id="resultPalindrome" class="result">Result will appear here</p>
+   
+  </div>
+
+  <!-- JS file -->
+  <script src="exp3.js"></script>
+</body>
+</html>

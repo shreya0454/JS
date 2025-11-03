@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Operations using JavaScript</title>
+  <link rel="stylesheet" href="exp6.css">
+</head>
+<body>
+  <div class="info">
+    <h2>Name: Shreya Gawade</h2>
+    <h3>Roll Number: 42325</h3>
+    <h3>Experiment No.: 06</h3>
+  </div>
+
+  <div class="container">
+    <h1>Array Operations</h1>
+
+    <label>Enter array size:</label><br>
+    <input type="number" id="arraySize" placeholder="e.g. 5"><br><br>
+
+    <label>Enter array elements (comma separated):</label><br>
+    <input type="text" id="arrayInput" placeholder="e.g. 10,20,30,40,50"><br><br>
+    <button onclick="createArray()">Create Array</button>
+    <div id="createResult" class="result"></div><br>
+
+    <label>Enter element to remove:</label><br>
+    <input type="text" id="removeElement" placeholder="Element to remove">
+    <button onclick="removeElement()">Remove</button>
+    <div id="removeResult" class="result"></div><br>
+
+    <label>Enter element to check:</label><br>
+    <input type="text" id="checkElement" placeholder="Element to check">
+    <button onclick="checkElement()">Check</button>
+    <div id="checkResult" class="result"></div><br>
+
+    <button onclick="emptyArray()">Empty Array</button>
+    <div id="emptyResult" class="result"></div>
+  </div>
+
+  <script src="exp6.js"></script>
+</body>
+</html>

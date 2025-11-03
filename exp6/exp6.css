@@ -1,0 +1,39 @@
+/* Basic page layout */
+body {
+  font-family: Arial, sans-serif;     /* Clean, readable font */
+  background-color: #f7f7f7;          /* Light gray background */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main container box */
+.container {
+  text-align: center;
+  background-color: #fff;             /* White card background */
+  padding: 25px 30px;
+  margin-top: 5px;
+  width: 360px;                       /* Fixed width for uniform layout */
+}
+
+/* Input fields (number + text) */
+input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;          /* Green background */
+  color: #fff;
+}
+
+.result {
+  margin-top: 15px;
+  background: #e8f5e9;                /* Light green background */
+  padding: 10px;
+  color: #2e7d32;                     /* Darker green text */
+}

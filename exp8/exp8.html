@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Experiment 08 - Background Color Events</title>
+  <link rel="stylesheet" href="exp8.css">
+  <script src="exp08.js"></script>
+</head>
+<body>
+  <h1 onmouseover="changeColorOnHover()" onmouseout="resetColor()">Name: Shreya Gawade</h1>
+  <h1>Batch: R7</h1>
+  <label>Enter Roll No.:</label> 
+  <input type="text" placeholder="Enter Roll No" 
+         onfocus="changeColorOnFocus(this)" 
+         onblur="resetInputColor(this)">
+</body>
+</html>

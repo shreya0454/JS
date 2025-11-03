@@ -1,0 +1,29 @@
+
+body {
+  font-family: Arial, sans-serif;   /* Simple and clean font */
+  background-color: #f4f4f9;        /* Light gray background */
+  display: flex;                    /* Centers content vertically & horizontally */
+  flex-direction: column;           
+  align-items: center;
+
+}
+
+.container {
+  text-align: center;               /* Centers inner elements */
+  background-color: #fff;           /* White background card */
+  padding: 25px;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;        /* Green button color */
+  color: white;
+}
+
+#comparisonResults {
+  text-align: left;
+}
